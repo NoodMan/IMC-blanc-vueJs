@@ -2,24 +2,23 @@
 <template>
   <center>
     <br />
-  
+
     <div class="card" style="">
       <br />
 
       <table class="table">
-       
-          <tr>
-            <th scope="col">
-              Taille(cm) <span class="material-icons"> straighten </span>
-            </th>
-            <th scope="col">
-              Poids(kg) <span class="material-icons"> scale </span>
-            </th>
-            <th scope="col">
-              IMC <span class="material-icons"> equalizer </span>
-            </th>
-          </tr>
-     
+        <tr>
+          <th scope="col">
+            Taille(cm) <span class="material-icons"> straighten </span>
+          </th>
+          <th scope="col">
+            Poids(kg) <span class="material-icons"> scale </span>
+          </th>
+          <th scope="col">
+            IMC <span class="material-icons"> equalizer </span>
+          </th>
+        </tr>
+
         <tbody>
           <tr>
             <td class="table-active">{{ store.taille }}</td>
@@ -32,9 +31,7 @@
     </div>
   </center>
   <br />
-  <center>
-   <span class="material-icons"> flaky </span> 
-   </center>
+
 </template>
 
 
